@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise10</title>
+</head>
+<body>
+
+<script>
+
+    var choice1 = parseInt(prompt("Choose your first card: "));
+    var choice2 = parseInt(prompt("Choose your second card: "));
+
+    if((choice1 + choice2) === 21){
+        console.log("BLACKJACK!");
+    }
+    else if((choice1 + choice2) >= 21){
+        console.log("BUST");
+    }
+    else{
+        console.log("The total is: "+(choice1+choice2));
+    }
+</script>
+
+</body>
+</html>
